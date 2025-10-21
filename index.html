@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My SoundCloud Page</title>
+  <title>Smerz – You got time and I got money</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    h1 {
+      color: #9b59b6;
+    }
+
+    .track {
+      margin-bottom: 2rem;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .track-info {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .track-info a {
+      color: #999;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>My Favorite SoundCloud Tracks</h1>
 
-  <div>
-    <h2>Track Title Here</h2>
-    <p>Artist: Artist Name</p>
-    <!-- Replace the src URL with your SoundCloud embed -->
-    <iframe width="100%" height="166" scrolling="no" frameborder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/TRACK_ID&color
+  <h1>SoundCloud Showcase</h1>
+
+  <div class="track">
+    <h2>You got time and I got money</h2>
+    <p class="track-info">by <a href="https://soundcloud.com/smerz-sc" target="_blank">Smerz</a></p>
+    
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2042719376&color=%23e683ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+    </iframe>
+
+    <div class="track-info">
+      <a href="https://soundcloud.com/smerz-sc" title="Smerz" target="_blank">Smerz</a> · 
+      <a href="https://soundcloud.com/smerz-sc/you-got-time-and-i-got-money" title="You got time and I got money" target="_blank">You got time and I got money</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
